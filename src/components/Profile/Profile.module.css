@@ -1,0 +1,8 @@
+.profile {
+  display: block;
+  width: 240px;
+  height: 330px;
+  text-align: center;
+  margin: auto;
+  box-shadow: 0 0 0 3px #898989, 0 0 12px #898989;
+}
