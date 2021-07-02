@@ -1,3 +1,58 @@
+* {
+  padding: 0;
+}
+
 .title {
   font-weight: 800;
+  font-family: sans-serif;
+  padding-top: 30px;
+  text-align: center;
+}
+
+.list {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  box-sizing: border-box;
+  margin: auto;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  width: 65px;
+  height: 60px;
+}
+
+.item:nth-child(1) {
+  background-color: #4ac6fb;
+}
+
+.item:nth-child(2) {
+  background-color: #a83ef3;
+}
+
+.item:nth-child(3) {
+  background-color: #cc5771;
+}
+
+.item:nth-child(4) {
+  background-color: #26b9c7;
+}
+
+.item:nth-child(5) {
+  background-color: green;
+}
+
+.label {
+  font-size: 12px;
+  color: white;
+  padding-top: 5px;
+}
+
+.percentage {
+  font-size: 20px;
+  font-weight: 400;
+  color: white;
+  padding-top: 5px;
 }
