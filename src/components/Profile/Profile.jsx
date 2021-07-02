@@ -1,4 +1,4 @@
-import user from '../../data/user.json'
+import user from '../../data/user.json';
 import css from './Profile.module.css';
 import {ProfileDescription} from '../ProfileDescription/ProfileDescription'
 import ProfileStats from '../ProfileStats/ProfileStats'
