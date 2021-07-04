@@ -1,0 +1,32 @@
+.transaction {
+  width: 870px;
+  margin: auto;
+  text-align: center;
+  font-family: sans-serif;
+  font-weight: 500;
+  border-collapse: collapse;
+  border: 1px solid grey;
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+th {
+  font-size: 24px;
+  color: white;
+  background-color: cornflowerblue;
+  border: 1px solid white;
+}
+
+th,
+td {
+  padding: 10px 15px;
+}
+
+tr:nth-child(even) {
+  background-color: gainsboro;
+}
+
+td {
+  font-size: 20px;
+  color: #898989;
+  border: 1px solid gainsboro;
+}
